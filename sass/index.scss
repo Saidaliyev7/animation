@@ -1,0 +1,18 @@
+.content {
+    .main {
+        text-align: center;
+        margin: 15px;
+        padding: 8px 10px;
+        border: 1px solid #ccc;
+        background-color: #ccc;
+        i {
+            font-size: 50px;
+            transition: 1s ease;
+            color: blue;
+            &:hover {
+                transform: rotateY(180deg);
+                transition: 1s ease;
+            }
+        }
+    }
+}
